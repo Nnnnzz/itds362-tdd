@@ -3,7 +3,7 @@ from kitchen import Quantity
 
 def test_multiplication():
     flour = Quantity(200)
-    assert flour.times(3).amount == 600
+    assert flour.times(3) == Quantity(600)
 
 def test_multiplication_by_two():
     flour = Quantity(200)
