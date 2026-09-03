@@ -1,6 +1,6 @@
 # kitchen.py
 class Quantity:
-    def __init__(self, amount):
+    def __init__(self, amount, unit):
         self.amount = amount
         self.unit = unit
 
